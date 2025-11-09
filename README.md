@@ -126,7 +126,9 @@ The build system handles the rest.
 
 ## Tech Stack
 
-React Native (tvOS fork), Expo SDK 51, TypeScript, Yarn workspaces, React Navigation, react-tv-space-navigation, react-native-video.
+[React Native](https://github.com/facebook/react-native) (tvOS fork), [Expo SDK 51](https://github.com/expo/expo), TypeScript, [Yarn workspaces](https://github.com/yarnpkg/yarn), [React Navigation](https://github.com/react-navigation/react-navigation), [react-tv-space-navigation](https://github.com/bamlab/react-tv-space-navigation), [react-native-video](https://github.com/TheWidlarzGroup/react-native-video).
+
+Sample content feed: [scrap-tv-feed](https://github.com/chris-trag/scrap-tv-feed)
 
 ## License
 
