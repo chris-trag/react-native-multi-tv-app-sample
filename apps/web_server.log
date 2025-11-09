@@ -1,0 +1,15 @@
+Starting project at /Users/trag/Documents/GitHub/react-native-multi-tv-app-sample/apps/expo-multi-tv
+Starting Metro Bundler
+Waiting on http://localhost:8083
+Logs for your project will appear below.
+Recrawled this watch 1 time, most recently because:
+MustScanSubDirs UserDroppedTo resolve, please review the information on
+https://facebook.github.io/watchman/docs/troubleshooting.html#recrawl
+To clear this warning, run:
+`watchman watch-del '/Users/trag/Documents/GitHub/react-native-multi-tv-app-sample' ; watchman watch-project '/Users/trag/Documents/GitHub/react-native-multi-tv-app-sample'`
+
+Web Bundled 227ms node_modules/expo/AppEntry.js (879 modules)
+Web Bundled 27ms node_modules/expo/AppEntry.js (1 module)
+Web Bundled 24ms node_modules/expo/AppEntry.js (1 module)
+Web Bundled 25ms node_modules/expo/AppEntry.js (1 module)
+Web Bundled 25ms node_modules/expo/AppEntry.js (1 module)
