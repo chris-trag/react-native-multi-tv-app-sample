@@ -10,7 +10,10 @@ Build TV apps that run everywhere. One codebase for Android TV, Apple TV, Fire T
 ## Quick Start
 
 ```bash
-git clone https://github.com/AmazonAppDev/react-native-multi-tv-app-sample.git && cd react-native-multi-tv-app-sample && yarn setup && yarn dev:android
+git clone https://github.com/AmazonAppDev/react-native-multi-tv-app-sample.git && \
+cd react-native-multi-tv-app-sample && \
+yarn setup && \
+yarn dev:android
 ```
 
 That's it. The app builds and launches on your Android TV emulator.
