@@ -68,13 +68,13 @@ The code is organized as a monorepo with shared components. The `expo-multi-tv` 
 
 ## Key Features
 
-**Navigation**: Spatial navigation that works with TV remotes and keyboards. Focus management that actually makes sense.
+**🧭 Navigation**: Spatial navigation that works with TV remotes and keyboards. Focus management that actually makes sense.
 
-**Video Player**: Custom controls with seek bars, play/pause, and remote control integration. Different implementations per platform because that's what works.
+**📺 Video Player**: Custom controls with seek bars, play/pause, and remote control integration. Different implementations per platform because that's what works.
 
-**Content Loading**: Fetches movie data from a JSON API. Easy to swap out with your own content source.
+**📡 Content Loading**: Fetches movie data from a JSON API. Easy to swap out with your own content source.
 
-**Shared UI**: Components in `packages/shared-ui` work across all platforms. Platform-specific code uses `.android.ts`, `.ios.ts`, `.kepler.ts` extensions.
+**🎨 Shared UI**: Components in `packages/shared-ui` work across all platforms. Platform-specific code uses `.android.ts`, `.ios.ts`, `.kepler.ts` extensions.
 
 ## Project Structure
 
