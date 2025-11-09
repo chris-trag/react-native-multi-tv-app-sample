@@ -15,8 +15,10 @@ That's it. The app builds and launches on your Android TV emulator.
 You need Android Studio with an Android TV emulator running. Don't have one? 
 
 1. Download [Android Studio](https://developer.android.com/studio)
-2. Tools → AVD Manager → Create Virtual Device → TV → "Television 1080p" → API 34
+2. Tools → AVD Manager → Create Virtual Device → **TV** → **"Television 1080p"** → **API 34 (Android 14)**
 3. Start the emulator before running commands
+
+**Important**: Use "Television 1080p" with API 34. Other TV emulators may not work correctly.
 
 ## Commands
 

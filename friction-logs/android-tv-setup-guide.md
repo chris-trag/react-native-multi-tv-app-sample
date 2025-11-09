@@ -2,8 +2,18 @@
 
 ## Prerequisites
 - Android SDK installed at `/Users/trag/Library/Android/sdk/`
-- Android TV emulator running (Television_1080p)
+- **Android TV emulator running: "Television 1080p" with API 34 (Android 14)**
 - Node.js and Yarn installed
+
+## Android TV Emulator Setup
+1. Open Android Studio
+2. Tools → AVD Manager → Create Virtual Device
+3. Select **TV** category (not Phone or Tablet)
+4. Choose **"Television 1080p"** (1920 x 1080, 320 dpi)
+5. Select **API 34 (Android 14)** system image
+6. Click Finish and start the emulator
+
+**Note**: Other TV emulators like "Android TV (1080p)" may cause issues. Use exactly "Television 1080p".
 
 ## Steps to Deploy
 
