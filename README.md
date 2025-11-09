@@ -56,12 +56,33 @@ The code is organized as a monorepo with shared components. The `expo-multi-tv` 
 ## Project Structure
 
 ```
-apps/
-├── expo-multi-tv/    # Universal app (Android TV, Apple TV, web)
-└── vega/             # Fire TV optimized version
-
-packages/
-└── shared-ui/        # Components, screens, navigation
+react-native-multi-tv-app-sample/
+├── apps/
+│   ├── expo-multi-tv/           # Universal app (Android TV, Apple TV, Fire TV, web)
+│   │   ├── src/
+│   │   │   ├── App.tsx          # Main app entry point
+│   │   │   └── components/      # App-specific components
+│   │   ├── app.json             # Expo configuration
+│   │   └── package.json
+│   └── vega/                    # Fire TV optimized version
+│       ├── src/
+│       │   ├── App.tsx          # Vega app entry point
+│       │   └── components/      # Vega-specific components
+│       ├── kepler.config.js     # Vega SDK configuration
+│       └── package.json
+├── packages/
+│   └── shared-ui/               # Shared components, screens, navigation
+│       ├── src/
+│       │   ├── components/      # Reusable UI components
+│       │   ├── screens/         # Screen components
+│       │   ├── navigation/      # Navigation setup
+│       │   ├── hooks/           # Custom hooks
+│       │   ├── theme/           # Theming configuration
+│       │   └── index.ts         # Package exports
+│       └── package.json
+├── package.json                 # Workspace configuration
+├── tsconfig.base.json           # Shared TypeScript config
+└── yarn.lock                    # Dependency lock file
 ```
 
 ## Development
