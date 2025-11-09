@@ -1,6 +1,11 @@
 # React Native Multi-TV App Sample
 
+[![React Native](https://img.shields.io/badge/React%20Native-v0.74.2-blue.svg)](https://reactnative.dev/)
+[![License: MIT-0](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AmazonAppDev/react-native-multi-tv-app-sample/blob/main/LICENSE)
+
 Build TV apps that run everywhere. One codebase for Android TV, Apple TV, Fire TV, and web.
+
+![Demo GIF](./tvdemo.gif)
 
 ## Quick Start
 
