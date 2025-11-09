@@ -35,6 +35,29 @@ yarn setup        # Check environment, install dependencies
 yarn dev:android  # Run on Android TV
 yarn dev:ios      # Run on Apple TV (macOS + Xcode required)
 yarn dev:web      # Run in browser
+yarn dev:vega     # Run on Fire TV (Vega)
+```
+
+### Fire TV (Vega)
+
+For the Fire TV optimized build:
+
+```bash
+# Development build
+yarn dev:vega
+
+# Production build
+yarn build:vega
+
+# Debug build
+yarn build:vega:debug
+```
+
+Or directly from the app directory:
+
+```bash
+cd apps/vega
+yarn build
 ```
 
 ## What You Get
